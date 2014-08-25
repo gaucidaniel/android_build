@@ -20,19 +20,14 @@ PRODUCT_PROPERTY_OVERRIDES :=
 PRODUCT_PACKAGES := \
 	Calculator \
 	DeskClock \
-	Email \
-	Exchange2 \
 	FusedLocation \
 	Gallery \
 	Keyguard \
-	Music \
 	Mms \
 	OpenWnn \
 	PrintSpooler \
 	libwnndict \
 	TeleService \
-	PinyinIME \
-	Protips \
 	SoftKeyboard \
 	SystemUI \
 	Launcher2 \
@@ -49,16 +44,12 @@ PRODUCT_PACKAGES := \
 	LiveWallpapersPicker \
 	ApiDemos \
 	GestureBuilder \
-	CubeLiveWallpapers \
 	QuickSearchBox \
 	WidgetPreview \
 	librs_jni \
 	ConnectivityTest \
 	GpsLocationTest \
 	CalendarProvider \
-	Calendar \
-	SmokeTest \
-	SmokeTestApp \
 	rild \
 	LegacyCamera \
 	Dialer
@@ -164,11 +155,3 @@ PRODUCT_LOCALES = \
 	vi_VN \
 	zh_CN \
 	zh_TW
-
-# include available languages for TTS in the system image
--include external/svox/pico/lang/PicoLangDeDeInSystem.mk
--include external/svox/pico/lang/PicoLangEnGBInSystem.mk
--include external/svox/pico/lang/PicoLangEnUsInSystem.mk
--include external/svox/pico/lang/PicoLangEsEsInSystem.mk
--include external/svox/pico/lang/PicoLangFrFrInSystem.mk
--include external/svox/pico/lang/PicoLangItItInSystem.mk
