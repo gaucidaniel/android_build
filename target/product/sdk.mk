@@ -24,9 +24,7 @@ PRODUCT_PACKAGES := \
 	Gallery \
 	Keyguard \
 	Mms \
-	OpenWnn \
 	PrintSpooler \
-	libwnndict \
 	TeleService \
 	SoftKeyboard \
 	SystemUI \
@@ -51,7 +49,6 @@ PRODUCT_PACKAGES := \
 	GpsLocationTest \
 	CalendarProvider \
 	rild \
-	LegacyCamera \
 	Dialer
 
 # Define the host tools and libs that are parts of the SDK.
