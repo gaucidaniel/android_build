@@ -37,7 +37,7 @@ endif
 # This specifies toolchain being used. In case of issues, stick with 4.7
 # 4.8 is default in my optimizations, as it gives noticable performance boost
 ifeq ($(strip $(TARGET_GCC_VERSION_EXP)),)
-TARGET_GCC_VERSION := 4.8
+TARGET_GCC_VERSION := ArchiDroid
 else
 TARGET_GCC_VERSION := $(TARGET_GCC_VERSION_EXP)
 endif
